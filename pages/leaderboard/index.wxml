@@ -1,0 +1,61 @@
+<!--pages/leaderboard/index.wxml-->
+
+<view class = 'index_cate'>
+  <view class = 'index1'>
+
+      <image mode = 'widthFix' src = "/icon/Alice.png"></image>
+      <text>Alice</text>
+
+  </view>
+  <view class = 'index2'>
+
+      <image mode = 'widthFix' src = "/icon/Bob.png"></image>
+      <text>Bob</text>
+
+  </view>
+  <view class = 'index3'>
+
+      <image mode = 'widthFix' src = "/icon/Pine.png"></image>
+      <text>Pine</text>
+
+  </view>
+</view>
+
+<view>
+  <view class = "search_input">
+    <input class = 'input' bindblur='Infinput' placeholder='Type In Information' placeholder-class='center'></input>
+  </view>
+  <view class = "search_input">
+    <input class = 'input' bindblur='Nameinput' placeholder='Encryption UserName' placeholder-class='center'></input>
+  </view>
+  <view style="display: flex;">
+    <button bindtap='ProPub' style="flex-grow: 1;">公钥加密</button>
+    <button bindtap='ProPri' style="flex-grow: 1;">私钥加密</button>
+  </view>
+
+</view>
+
+<view>
+  <view class = 'search_input'>
+    <box>{{Ciphertext}}</box>
+  </view>
+</view>
+
+<view>
+  <view style="display: flex;">
+    <button bindtap='DecPub' style="flex-grow: 1;">公钥解密</button>
+    <button bindtap='DecPri' style="flex-grow: 1;">私钥解密</button>
+  </view>
+
+
+  <view class = "search_input">
+    <input class = 'input' bindblur='Name2input' placeholder='Decryption UserName' placeholder-class='center'></input>
+  </view>
+  <view>
+  <view class = 'search_input'>
+    <box>{{finaltext}}</box>
+  </view>
+</view>
+
+
+</view>

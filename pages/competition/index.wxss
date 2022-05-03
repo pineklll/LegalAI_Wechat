@@ -1,0 +1,82 @@
+/* pages/competition/index.wxss */
+/* pages/leaderboard/index.wxss */
+.search_input {
+  height: 90rpx;
+  padding: 10rpx;
+  background-color: var(--themeColor);
+}
+.search_input input {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  background-color: #fff;
+  border-radius: 15rpx;
+  color: #666;
+}
+
+.search_input box {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  background-color: #fff;
+  border-radius: 15rpx;
+  color: #666;
+}
+
+.center{
+  text-align: center;
+}
+
+.index_cate image {
+  width: 100%;
+}
+
+.index_cate text{
+  justify-content:center;
+  color:black;
+}
+
+.index_cate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:baseline;
+  padding: 20rpx;
+  flex: 1;
+  line-height: 80rpx;
+}
+
+button:after {
+  content: none;
+}
+
+.index_cate.index1{
+  flex-grow: 1;
+}
+
+.index_cate.index2{
+  flex-grow: 1;
+}
+
+.index_cate.index3{
+  flex-grow: 1;
+}
+
+
+.index_cate image {
+  width: 100%;
+}
+
+.index_cate text{
+  justify-content:center;
+  color:black;
+}
+
+image{
+  width: 200px;
+  height: 200px;
+}

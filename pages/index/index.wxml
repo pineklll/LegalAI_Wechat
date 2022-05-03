@@ -1,0 +1,26 @@
+<view class = 'index_cate'>
+  <view class = 'index1'>
+    <button size = 'mini' type = 'primary' bindtap = 'competition' plain='true'>
+      <image mode = 'widthFix' src = "/icon/sign.png"></image>
+      <text>签名</text>
+    </button>
+  </view>
+  <view class = 'index2'>
+    <button size = 'mini' type = 'primary' bindtap = 'leaderboard' plain='true'>
+      <image mode = 'widthFix' src = "/icon/leaderboard.png"></image>
+      <text>RSA</text>
+    </button>
+  </view>
+  <view class = 'index3'>
+    <button size = 'mini' type = 'primary' bindtap = 'word_data' plain='true'>
+      <image mode = 'widthFix' src = "/icon/data.png"></image>
+      <text>摘要</text>
+    </button>
+  </view>
+  <view class = 'index4'>
+    <button size = 'mini' type = 'primary' bindtap = 'calendar' plain='true'>
+      <image mode = 'widthFix' src = "/icon/cert.png"></image>
+      <text>证书</text>
+    </button>
+  </view>
+</view>

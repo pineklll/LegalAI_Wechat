@@ -1,0 +1,8 @@
+<calendar 
+cur-year="{{curYear}}"
+cur-month="{{curMonth}}" 
+day="{{day}}" 
+header_show='{{header_show}}' 
+prev='{{prev}}' 
+next='{{next}}' 
+/>
