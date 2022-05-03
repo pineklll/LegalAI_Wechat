@@ -6,7 +6,6 @@
     "pages/word_data/index",
     "pages/friends/index",
     "pages/leaderboard/index",
-    "pages/calendar/index",
     "pages/search/index",
     "pages/competition/index"
   ],
