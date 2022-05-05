@@ -1,4 +1,0 @@
-<!--pages/word/index.wxml-->
-<view class = "word">
-  <SearchInput></SearchInput>
-</view>
